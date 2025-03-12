@@ -5,7 +5,7 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 
-const API_KEY = "YOUR_NEWAPI_KEY";
+const API_KEY = "NEWSAPI_KEY";
 
 app.get("/news", async (req, res) => {
     try {
